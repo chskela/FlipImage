@@ -1,2 +1,56 @@
-﻿body {
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: red;
+} 
+
+.row {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    background: blue;
+} 
+
+.item {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: magenta;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+img {
+    max-width:100%;
+    height:auto;
+    
+}
+.up, .down, .left, .right{
+    position: absolute;
+   
+} 
+
+.up {
+    left: auto;
+    top: 0px;
+} 
+.down {
+    left: auto;
+    bottom: 0px;
+} 
+.left {
+    top: auto;
+    left: 0px;
+}
+.right {
+    top: auto;
+    right: 0px;
+} 
