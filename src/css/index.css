@@ -31,10 +31,12 @@
 img {
     max-width:100%;
     height:auto;
+    transition: transform 0.8s;
     
 }
 .up, .down, .left, .right{
     position: absolute;
+    z-index: 1000;
    
 } 
 
